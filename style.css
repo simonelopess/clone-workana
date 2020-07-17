@@ -1,0 +1,96 @@
+:root{
+    --main-color: #3a7fff;
+    --second-color: #16c153;
+}
+
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1rem;
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+   color: #fff;
+   padding: 0px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    background-color: var(--main-color); 
+    padding-bottom: 50px;
+}
+.header{
+       
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+}
+
+.nav > a {    
+    align-self: center;
+}
+.nav img{
+    width: 130px;
+}
+
+.menu, .cadastro{
+    display: flex;
+}
+
+.menu li, .cadastro li{
+    margin-left: 10px;
+}
+
+.menu li a, .cadastro li a{
+    display: block;
+    padding: 10px;
+}
+
+.cadastro > li:nth-child(3){
+    background-color: var(--second-color);
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+
+.main-principal{
+    background: var(--main-color);
+    background-image: url(https://wkncdn.com/newx/assets/build/img/home/home-hero.3df733315.png);
+    background-repeat: no-repeat;
+    background-position: 65% 75%;
+    padding-top: 340px;
+}
+
+.main-texto{
+    position: relative;
+    top: -320px;
+}
+
+.main-texto h1{
+    font-size: 48px;
+    color: #fff;
+        
+}
+.main-texto h1 span{
+    color: #1c3f7f;
+}
