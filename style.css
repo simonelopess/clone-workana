@@ -115,6 +115,72 @@ header{
     padding: 40px 0;
 }
 
+
+
+/* COMO FUNCIONA */
+
+.main-funciona{
+    display: flex;
+    justify-content: space-between;    
+}
+
+
+
+.main-funciona h3{
+    margin: 40px 0;
+    font-size: 2.14em;
+    color: #4a4a4a;
+}
+.main-funciona a {
+    color: #3a7fff;
+    margin: 40px 0;
+}
+
+.como-funciona{
+    display: flex;
+}
+
+.como-funciona div {
+    flex: 1 1 270px;
+    margin-left: 10px;
+}
+.como-funciona div h3{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 20px;
+ }
+
+.como-funciona div p{
+    color: #4a4a4a;
+    font-size: 1.125em;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.funciona{
+    padding-bottom: 60px;
+}
+.funciona a{
+    background-color: var(--second-color);
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-right: 8px;
+
+}
+.funciona a:last-child{
+    color: #3a7fff;
+    background:none;
+}
+
+
+
+
+
+
+
+
+
 .produtos{
     display: flex;
     flex-wrap: wrap;
