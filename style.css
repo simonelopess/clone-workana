@@ -341,3 +341,52 @@ header{
 .links-parceiro a:last-child{
     text-align: left;
 }
+
+
+/* CAROUSEL */
+#b1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto;
+    max-width: 659px;
+    text-align: center;
+}
+
+#b2{
+    position: relative;
+    left: 0px;
+    top: -200px;
+    margin: 0 auto;
+    max-width: 659px;
+    text-align: center;
+}
+
+#b3{
+    position: relative;
+    left: 0px;
+    top: -450px; 
+    margin: 0 auto;
+    max-width: 659px;
+    text-align: center;
+}
+
+#b4{
+    position: relative;
+    left: 0px;
+    top: -710px;
+    margin: 0 auto;
+    max-width: 659px;
+    text-align: center;
+}
+
+.h3{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    height: auto;
+}
+
+article > figure > img{
+    margin: 0 auto;
+}
