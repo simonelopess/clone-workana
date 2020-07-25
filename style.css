@@ -351,6 +351,8 @@ header{
     margin: 0 auto;
     max-width: 659px;
     text-align: center;
+    
+    
 }
 
 #b2{
@@ -390,3 +392,4 @@ header{
 article > figure > img{
     margin: 0 auto;
 }
+
